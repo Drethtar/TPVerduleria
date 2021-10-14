@@ -1,0 +1,11 @@
+C:\Users\Bauty Garcia\OneDrive\Escritorio\TPVerduleria\bin\Debug\TPVerduleria.exe.config
+C:\Users\Bauty Garcia\OneDrive\Escritorio\TPVerduleria\bin\Debug\TPVerduleria.exe
+C:\Users\Bauty Garcia\OneDrive\Escritorio\TPVerduleria\bin\Debug\TPVerduleria.pdb
+C:\Users\Bauty Garcia\OneDrive\Escritorio\TPVerduleria\obj\Debug\TPVerduleria.csprojAssemblyReference.cache
+C:\Users\Bauty Garcia\OneDrive\Escritorio\TPVerduleria\obj\Debug\TPVerduleria.CrearCuenta.resources
+C:\Users\Bauty Garcia\OneDrive\Escritorio\TPVerduleria\obj\Debug\TPVerduleria.IniciarSesion.resources
+C:\Users\Bauty Garcia\OneDrive\Escritorio\TPVerduleria\obj\Debug\TPVerduleria.Properties.Resources.resources
+C:\Users\Bauty Garcia\OneDrive\Escritorio\TPVerduleria\obj\Debug\TPVerduleria.csproj.GenerateResource.cache
+C:\Users\Bauty Garcia\OneDrive\Escritorio\TPVerduleria\obj\Debug\TPVerduleria.csproj.CoreCompileInputs.cache
+C:\Users\Bauty Garcia\OneDrive\Escritorio\TPVerduleria\obj\Debug\TPVerduleria.exe
+C:\Users\Bauty Garcia\OneDrive\Escritorio\TPVerduleria\obj\Debug\TPVerduleria.pdb
