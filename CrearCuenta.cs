@@ -29,12 +29,10 @@ namespace TPVerduleria
         {
             try
             {
-
                 connection.Open();
                 OleDbCommand command = new OleDbCommand();
                 command.Connection = connection;
                 int count = 0;
-
 
                 command.CommandText = "select * from Usuario where Usuario='" + txtUsuario.Text + "'";
 
@@ -55,12 +53,10 @@ namespace TPVerduleria
                 connection.Close();
                 connection.Open();
 
-                command.CommandText = "insert into Usuario (Usuario,Password,ComidaFavorita) " + " values ('" + txtUsuario.Text + "','" + txtPass.Text + "','" + 10 + "')";
+                command.CommandText = "insert into Usuario (Usuario,ContraUsuario,ComidaFavorita) " + " values ('" + txtUsuario.Text + "','"+ txtPass.Text +"','"+ 10 +"')";
                 command.ExecuteNonQuery();
 
                 connection.Close();
-
-
 
                 MessageBox.Show("Se Creo La Cuenta");
 
