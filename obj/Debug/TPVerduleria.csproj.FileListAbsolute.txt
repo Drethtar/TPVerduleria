@@ -9,3 +9,16 @@ C:\Users\Bauty Garcia\OneDrive\Escritorio\TPVerduleria\obj\Debug\TPVerduleria.cs
 C:\Users\Bauty Garcia\OneDrive\Escritorio\TPVerduleria\obj\Debug\TPVerduleria.csproj.CoreCompileInputs.cache
 C:\Users\Bauty Garcia\OneDrive\Escritorio\TPVerduleria\obj\Debug\TPVerduleria.exe
 C:\Users\Bauty Garcia\OneDrive\Escritorio\TPVerduleria\obj\Debug\TPVerduleria.pdb
+C:\Users\47026765\Desktop\TPVerduleria\bin\Debug\TPVerduleria.exe.config
+C:\Users\47026765\Desktop\TPVerduleria\bin\Debug\TPVerduleria.exe
+C:\Users\47026765\Desktop\TPVerduleria\bin\Debug\TPVerduleria.pdb
+C:\Users\47026765\Desktop\TPVerduleria\obj\Debug\TPVerduleria.csprojAssemblyReference.cache
+C:\Users\47026765\Desktop\TPVerduleria\obj\Debug\TPVerduleria.CrearCuenta.resources
+C:\Users\47026765\Desktop\TPVerduleria\obj\Debug\TPVerduleria.IniciarSesion.resources
+C:\Users\47026765\Desktop\TPVerduleria\obj\Debug\TPVerduleria.Properties.Resources.resources
+C:\Users\47026765\Desktop\TPVerduleria\obj\Debug\TPVerduleria.csproj.GenerateResource.cache
+C:\Users\47026765\Desktop\TPVerduleria\obj\Debug\TPVerduleria.csproj.CoreCompileInputs.cache
+C:\Users\47026765\Desktop\TPVerduleria\obj\Debug\TPVerduleria.exe
+C:\Users\47026765\Desktop\TPVerduleria\obj\Debug\TPVerduleria.pdb
+C:\Users\47026765\Desktop\TPVerduleria\obj\Debug\TPVerduleria.CambioDeVerdura.resources
+C:\Users\47026765\Desktop\TPVerduleria\obj\Debug\TPVerduleria.MenuVerduleria.resources

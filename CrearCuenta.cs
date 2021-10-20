@@ -56,6 +56,9 @@ namespace TPVerduleria
                 command.CommandText = "insert into Usuario (Usuario,ContraUsuario,ComidaFavorita) " + " values ('" + txtUsuario.Text + "','"+ txtPass.Text +"','"+ 10 +"')";
                 command.ExecuteNonQuery();
 
+                IniciarSesion.ObtenerDatosUsuario.IDComidaFavorita = 10;
+                IniciarSesion.ObtenerDatosUsuario.NombreDelUsuario = txtUsuario.Text;
+
                 connection.Close();
 
                 MessageBox.Show("Se Creo La Cuenta");
