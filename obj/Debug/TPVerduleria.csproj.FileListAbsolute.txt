@@ -22,3 +22,16 @@ C:\Users\47026765\Desktop\TPVerduleria\obj\Debug\TPVerduleria.exe
 C:\Users\47026765\Desktop\TPVerduleria\obj\Debug\TPVerduleria.pdb
 C:\Users\47026765\Desktop\TPVerduleria\obj\Debug\TPVerduleria.CambioDeVerdura.resources
 C:\Users\47026765\Desktop\TPVerduleria\obj\Debug\TPVerduleria.MenuVerduleria.resources
+C:\Users\PICHAU\Desktop\TpVerduleria\bin\Debug\TPVerduleria.exe.config
+C:\Users\PICHAU\Desktop\TpVerduleria\bin\Debug\TPVerduleria.exe
+C:\Users\PICHAU\Desktop\TpVerduleria\bin\Debug\TPVerduleria.pdb
+C:\Users\PICHAU\Desktop\TpVerduleria\obj\Debug\TPVerduleria.csproj.AssemblyReference.cache
+C:\Users\PICHAU\Desktop\TpVerduleria\obj\Debug\TPVerduleria.CambioDeVerdura.resources
+C:\Users\PICHAU\Desktop\TpVerduleria\obj\Debug\TPVerduleria.CrearCuenta.resources
+C:\Users\PICHAU\Desktop\TpVerduleria\obj\Debug\TPVerduleria.IniciarSesion.resources
+C:\Users\PICHAU\Desktop\TpVerduleria\obj\Debug\TPVerduleria.MenuVerduleria.resources
+C:\Users\PICHAU\Desktop\TpVerduleria\obj\Debug\TPVerduleria.Properties.Resources.resources
+C:\Users\PICHAU\Desktop\TpVerduleria\obj\Debug\TPVerduleria.csproj.GenerateResource.cache
+C:\Users\PICHAU\Desktop\TpVerduleria\obj\Debug\TPVerduleria.csproj.CoreCompileInputs.cache
+C:\Users\PICHAU\Desktop\TpVerduleria\obj\Debug\TPVerduleria.exe
+C:\Users\PICHAU\Desktop\TpVerduleria\obj\Debug\TPVerduleria.pdb

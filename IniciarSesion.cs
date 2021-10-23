@@ -93,5 +93,20 @@ namespace TPVerduleria
                 MessageBox.Show("Error " + ex);
             }
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == true)
+            {
+                if (txtPass.PasswordChar == '*')
+                {
+                    txtPass.PasswordChar = '\0';
+                }
+            }
+            else
+            {
+                txtPass.PasswordChar = '*';
+            }
+        }
     }
 }

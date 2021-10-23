@@ -27,6 +27,8 @@ namespace TPVerduleria
 
         private void btnCrearCuenta_Click(object sender, EventArgs e)
         {
+            if (txtconfimacion.Text == txtPass.Text)
+
             try
             {
                 connection.Open();
@@ -71,6 +73,10 @@ namespace TPVerduleria
             {
                 MessageBox.Show("Upa, algo salo mal... " + ex);
             }
+            else
+            {
+               MessageBox.Show("Ingresaste mal tu contraseña");
+            }
         }
 
         private void btnAtras_Click(object sender, EventArgs e)
@@ -78,6 +84,41 @@ namespace TPVerduleria
             this.Hide();
             new IniciarSesion().ShowDialog();
             this.Show();
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+         if (checkBox1.Checked == true)
+         {
+                if (txtPass.PasswordChar == '*')
+                {
+                    txtPass.PasswordChar = '\0';
+                }
+         }
+         else
+         {
+                txtPass.PasswordChar = '*';
+         }
+
+        }
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox2.Checked == true)
+            {
+                if (txtconfimacion.PasswordChar == '*')
+                {
+                    txtconfimacion.PasswordChar = '\0';
+                }
+            }
+            else
+            {
+                txtconfimacion.PasswordChar = '*';
+            }
+        }
+
+        private void txtUsuario_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
