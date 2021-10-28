@@ -45,7 +45,7 @@ namespace TPVerduleria
             // 
             this.btnCrearCuenta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnCrearCuenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCrearCuenta.Location = new System.Drawing.Point(593, 436);
+            this.btnCrearCuenta.Location = new System.Drawing.Point(623, 464);
             this.btnCrearCuenta.Margin = new System.Windows.Forms.Padding(2);
             this.btnCrearCuenta.Name = "btnCrearCuenta";
             this.btnCrearCuenta.Size = new System.Drawing.Size(101, 22);
@@ -56,7 +56,7 @@ namespace TPVerduleria
             // 
             // txtPass
             // 
-            this.txtPass.Location = new System.Drawing.Point(590, 350);
+            this.txtPass.Location = new System.Drawing.Point(623, 353);
             this.txtPass.Margin = new System.Windows.Forms.Padding(2);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
@@ -65,7 +65,7 @@ namespace TPVerduleria
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(590, 286);
+            this.txtUsuario.Location = new System.Drawing.Point(623, 288);
             this.txtUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(104, 20);
@@ -76,7 +76,7 @@ namespace TPVerduleria
             // 
             this.btnAtras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAtras.Location = new System.Drawing.Point(593, 462);
+            this.btnAtras.Location = new System.Drawing.Point(502, 588);
             this.btnAtras.Margin = new System.Windows.Forms.Padding(2);
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.Size = new System.Drawing.Size(70, 22);
@@ -87,7 +87,7 @@ namespace TPVerduleria
             // 
             // txtconfimacion
             // 
-            this.txtconfimacion.Location = new System.Drawing.Point(590, 393);
+            this.txtconfimacion.Location = new System.Drawing.Point(623, 398);
             this.txtconfimacion.Name = "txtconfimacion";
             this.txtconfimacion.PasswordChar = '*';
             this.txtconfimacion.Size = new System.Drawing.Size(104, 20);
@@ -96,7 +96,7 @@ namespace TPVerduleria
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(698, 354);
+            this.checkBox1.Location = new System.Drawing.Point(732, 356);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(15, 14);
             this.checkBox1.TabIndex = 5;
@@ -106,7 +106,7 @@ namespace TPVerduleria
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(698, 396);
+            this.checkBox2.Location = new System.Drawing.Point(732, 401);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(15, 14);
             this.checkBox2.TabIndex = 6;
@@ -117,7 +117,7 @@ namespace TPVerduleria
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(590, 271);
+            this.label1.Location = new System.Drawing.Point(620, 273);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(43, 13);
             this.label1.TabIndex = 7;
@@ -127,7 +127,7 @@ namespace TPVerduleria
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(590, 336);
+            this.label2.Location = new System.Drawing.Point(620, 338);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 13);
             this.label2.TabIndex = 8;
@@ -137,7 +137,7 @@ namespace TPVerduleria
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(590, 377);
+            this.label3.Location = new System.Drawing.Point(620, 382);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(107, 13);
             this.label3.TabIndex = 9;
@@ -147,7 +147,7 @@ namespace TPVerduleria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::TPVerduleria.Properties.Resources.Group_21;
+            this.BackgroundImage = global::TPVerduleria.Properties.Resources.Group_22;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.label3);
@@ -160,6 +160,7 @@ namespace TPVerduleria
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.btnCrearCuenta);
+            this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "CrearCuenta";
             this.Text = "CrearCuenta";

@@ -35,6 +35,8 @@ namespace TPVerduleria
             this.btnCerrar = new System.Windows.Forms.Button();
             this.cbxColores = new System.Windows.Forms.ComboBox();
             this.cbxVerduras = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbNombreUsuario
@@ -42,7 +44,7 @@ namespace TPVerduleria
             this.lbNombreUsuario.AutoSize = true;
             this.lbNombreUsuario.BackColor = System.Drawing.Color.Transparent;
             this.lbNombreUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbNombreUsuario.Location = new System.Drawing.Point(481, 178);
+            this.lbNombreUsuario.Location = new System.Drawing.Point(675, 229);
             this.lbNombreUsuario.Name = "lbNombreUsuario";
             this.lbNombreUsuario.Size = new System.Drawing.Size(79, 29);
             this.lbNombreUsuario.TabIndex = 0;
@@ -53,7 +55,8 @@ namespace TPVerduleria
             this.lbVerduraFavorita.AutoSize = true;
             this.lbVerduraFavorita.BackColor = System.Drawing.Color.Transparent;
             this.lbVerduraFavorita.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbVerduraFavorita.Location = new System.Drawing.Point(481, 285);
+            this.lbVerduraFavorita.Location = new System.Drawing.Point(675, 402);
+            this.lbVerduraFavorita.MaximumSize = new System.Drawing.Size(200, 200);
             this.lbVerduraFavorita.Name = "lbVerduraFavorita";
             this.lbVerduraFavorita.Size = new System.Drawing.Size(79, 29);
             this.lbVerduraFavorita.TabIndex = 1;
@@ -63,9 +66,9 @@ namespace TPVerduleria
             // 
             this.btnCambiarVerdura.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnCambiarVerdura.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCambiarVerdura.Location = new System.Drawing.Point(473, 471);
+            this.btnCambiarVerdura.Location = new System.Drawing.Point(223, 476);
             this.btnCambiarVerdura.Name = "btnCambiarVerdura";
-            this.btnCambiarVerdura.Size = new System.Drawing.Size(131, 53);
+            this.btnCambiarVerdura.Size = new System.Drawing.Size(121, 53);
             this.btnCambiarVerdura.TabIndex = 2;
             this.btnCambiarVerdura.Text = "Cambiar Verdura";
             this.btnCambiarVerdura.UseVisualStyleBackColor = false;
@@ -75,7 +78,7 @@ namespace TPVerduleria
             // 
             this.btnCerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCerrar.Location = new System.Drawing.Point(434, 646);
+            this.btnCerrar.Location = new System.Drawing.Point(142, 643);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(75, 23);
             this.btnCerrar.TabIndex = 3;
@@ -90,7 +93,7 @@ namespace TPVerduleria
             "Rojo",
             "Verde",
             "Amarillo"});
-            this.cbxColores.Location = new System.Drawing.Point(755, 351);
+            this.cbxColores.Location = new System.Drawing.Point(223, 238);
             this.cbxColores.Name = "cbxColores";
             this.cbxColores.Size = new System.Drawing.Size(121, 21);
             this.cbxColores.TabIndex = 4;
@@ -99,17 +102,39 @@ namespace TPVerduleria
             // cbxVerduras
             // 
             this.cbxVerduras.FormattingEnabled = true;
-            this.cbxVerduras.Location = new System.Drawing.Point(755, 417);
+            this.cbxVerduras.Location = new System.Drawing.Point(223, 362);
             this.cbxVerduras.Name = "cbxVerduras";
             this.cbxVerduras.Size = new System.Drawing.Size(121, 21);
             this.cbxVerduras.TabIndex = 5;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Location = new System.Drawing.Point(220, 222);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(94, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "¿De que color es?";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Location = new System.Drawing.Point(220, 346);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(53, 13);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "¿Que es?";
             // 
             // MenuVerduleria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::TPVerduleria.Properties.Resources.Group_3;
+            this.BackgroundImage = global::TPVerduleria.Properties.Resources.Group_32;
             this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.cbxVerduras);
             this.Controls.Add(this.cbxColores);
             this.Controls.Add(this.btnCerrar);
@@ -132,5 +157,7 @@ namespace TPVerduleria
         private System.Windows.Forms.Button btnCerrar;
         private System.Windows.Forms.ComboBox cbxColores;
         private System.Windows.Forms.ComboBox cbxVerduras;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

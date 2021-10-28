@@ -40,7 +40,7 @@ namespace TPVerduleria
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(597, 262);
+            this.txtUsuario.Location = new System.Drawing.Point(626, 277);
             this.txtUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(104, 20);
@@ -48,7 +48,7 @@ namespace TPVerduleria
             // 
             // txtPass
             // 
-            this.txtPass.Location = new System.Drawing.Point(597, 317);
+            this.txtPass.Location = new System.Drawing.Point(626, 332);
             this.txtPass.Margin = new System.Windows.Forms.Padding(2);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
@@ -59,7 +59,7 @@ namespace TPVerduleria
             // 
             this.btnIniciarSesion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnIniciarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIniciarSesion.Location = new System.Drawing.Point(597, 376);
+            this.btnIniciarSesion.Location = new System.Drawing.Point(626, 391);
             this.btnIniciarSesion.Margin = new System.Windows.Forms.Padding(2);
             this.btnIniciarSesion.Name = "btnIniciarSesion";
             this.btnIniciarSesion.Size = new System.Drawing.Size(104, 23);
@@ -72,7 +72,7 @@ namespace TPVerduleria
             // 
             this.lbIrACrear.AutoSize = true;
             this.lbIrACrear.BackColor = System.Drawing.Color.Transparent;
-            this.lbIrACrear.Location = new System.Drawing.Point(598, 412);
+            this.lbIrACrear.Location = new System.Drawing.Point(627, 427);
             this.lbIrACrear.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbIrACrear.Name = "lbIrACrear";
             this.lbIrACrear.Size = new System.Drawing.Size(87, 13);
@@ -83,7 +83,7 @@ namespace TPVerduleria
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(705, 321);
+            this.checkBox1.Location = new System.Drawing.Point(734, 336);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(15, 14);
             this.checkBox1.TabIndex = 4;
@@ -95,7 +95,7 @@ namespace TPVerduleria
             this.label1.AutoEllipsis = true;
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(598, 247);
+            this.label1.Location = new System.Drawing.Point(627, 262);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(43, 13);
             this.label1.TabIndex = 5;
@@ -105,7 +105,7 @@ namespace TPVerduleria
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(598, 302);
+            this.label2.Location = new System.Drawing.Point(627, 317);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 13);
             this.label2.TabIndex = 6;
@@ -115,7 +115,7 @@ namespace TPVerduleria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::TPVerduleria.Properties.Resources.Group_2;
+            this.BackgroundImage = global::TPVerduleria.Properties.Resources.Group_23;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.label2);
@@ -125,6 +125,7 @@ namespace TPVerduleria
             this.Controls.Add(this.btnIniciarSesion);
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtUsuario);
+            this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "IniciarSesion";
             this.Text = "Inicio de Sesion";

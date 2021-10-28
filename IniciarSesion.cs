@@ -70,9 +70,7 @@ namespace TPVerduleria
                     OleDbDataReader reader2 = command2.ExecuteReader();
                     reader2.Read();
 
-                    string IDObtenidoDelUsuario = reader2["ID"].ToString();
                     string ComidaFav = reader2["ComidaFavorita"].ToString();
-                    IniciarSesion.ObtenerDatosUsuario.IDdelUsuario = Convert.ToInt32(IDObtenidoDelUsuario);
                     IniciarSesion.ObtenerDatosUsuario.NombreDelUsuario = txtUsuario.Text;
                     IniciarSesion.ObtenerDatosUsuario.IDComidaFavorita = Convert.ToInt32(ComidaFav);
 

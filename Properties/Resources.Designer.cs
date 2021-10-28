@@ -113,6 +113,26 @@ namespace TPVerduleria.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Group_22 {
+            get {
+                object obj = ResourceManager.GetObject("Group 22", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Group_23 {
+            get {
+                object obj = ResourceManager.GetObject("Group 23", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Group_3 {
             get {
                 object obj = ResourceManager.GetObject("Group 3", resourceCulture);
@@ -126,6 +146,16 @@ namespace TPVerduleria.Properties {
         internal static System.Drawing.Bitmap Group_31 {
             get {
                 object obj = ResourceManager.GetObject("Group 31", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Group_32 {
+            get {
+                object obj = ResourceManager.GetObject("Group 32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

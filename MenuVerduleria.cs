@@ -36,7 +36,7 @@ namespace TPVerduleria
             reader.Read();
             string ComidaFav = reader["Nombre"].ToString();
 
-            lbVerduraFavorita.Text = "Comida Favorita: " + ComidaFav;
+            lbVerduraFavorita.Text = "La fruta o verdura que queres comprar es el/la: " + ComidaFav;
 
             connection.Close();
             
@@ -98,5 +98,7 @@ namespace TPVerduleria
             new IniciarSesion().ShowDialog();
             this.Show();
         }
+
+       
     }
 }
